@@ -1,0 +1,54 @@
+.calendarPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FEFAE0;
+    position: relative;
+    height: 100vh;
+
+}
+
+.calendarPage h1 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    font-family: cursive;
+    margin-top: -2rem;
+}
+
+.calendarP {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+}
+
+.calendarP span {
+    font-weight: bold;
+}
+
+.calendarProgress {
+    margin-top: -1rem;
+}
+
+.calendarProgress .bookingIcon1 {
+    color: orange;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.calendarProgress .bookingIcon2 {
+    color: #bb010b;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.calendar {
+    border: 2px solid black;
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: 0rem 3rem;
+    height: 45vh;
+    overflow: hidden;
+
+}

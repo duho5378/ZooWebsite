@@ -1,0 +1,165 @@
+.homeSliderMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bb010b;
+    border: 2px solid #bb010b;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    padding-bottom: 3rem;
+    z-index: 889;
+    padding-top: 0.5rem;
+}
+
+.imageSanta {
+    position: relative;
+    z-index: 888;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: -6.5rem;
+    margin-left: 35.5rem;
+    transform: rotate(30deg);
+}
+
+.imageToe2, .imageToe3, .imageToe1 {
+    position: relative;
+    z-index: 888;
+    width: 6rem;
+    height: 6rem;
+    margin-right: -5rem;
+    bottom: 33%;
+    transition: 1s ease;
+}
+
+.imageToe1.jingle-animation, .imageToe2.jingle-animation, .imageToe3.jingle-animation {
+    animation: jingle 1s ease infinite;
+}
+
+@keyframes jingle {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.titleH1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.titleP {
+    font-size: 1.3rem;
+    font-weight: 550;
+    width: 100%;
+    text-align: center;
+    margin-top: -1rem;
+    color: white;
+}
+
+.titleA {
+    font-size: 2rem;
+    font-weight: 550;
+    width: 100%;
+    text-align: center;
+    color: orange;
+    margin-top: -4rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.homeSlider {
+    width: 90%;
+    color: #FEFAE0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -4rem;
+}
+
+.card1, .card2, .card3 {
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 15px;
+    transition: 0.5s;
+    background-color: orange;
+}
+
+.inside {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card1:hover .vidContent, .card2:hover .vidContent, .card3:hover .vidContent {
+    top: 50%;
+}
+
+.card1:hover, .card1:hover .inside {
+    box-shadow: -4px -4px 10px #bb010b, 4px 4px 20px #bb010b, inset 4px 4px 20px #bb010b, inset -4px -4px 10px #bb010b;
+}
+
+.card1:hover, .card1:hover .inside, .card2:hover, .card2:hover .inside,.card3:hover, .card3:hover .inside {
+    box-shadow: -4px -4px 10px #e39300, 4px 4px 20px #e39300, inset 4px 4px 20px #e39300, inset -4px -4px 10px #e39300;
+}
+
+.vid {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.vidContent {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 79%;
+    transition: 0.5s;
+}
+
+.card1 .vidContent h1, .card2 .vidContent h1, .card3 .vidContent h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: orange;
+}
+
+.card1 .vidContent p, .card2 .vidContent p, .card3 .vidContent p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+.card1 .vidContent a, .card2 .vidContent a, .card3 .vidContent a {
+    font-size: 1.3rem;
+    font-weight: 550;
+    border: 1px solid orange;
+    padding: 0.4rem 0.7rem;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: orange;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+.vidContent a:hover {
+    scale: 1.05;
+}

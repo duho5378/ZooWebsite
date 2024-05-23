@@ -1,0 +1,190 @@
+.displayAnimal {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    background-color: #FEFAE0;
+}
+
+.animalTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-top: -5rem;
+    text-align: center;
+}
+
+.animalTitle h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.animalTitle p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 70%;
+    margin-top: -1rem;
+}
+
+.firstThree {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    max-width: 1200px; /* Điều chỉnh độ rộng tối đa của grid nếu cần */
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.one {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    margin-bottom: 5rem;
+}
+
+.zero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background-color: #bb010b;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    margin-bottom: 5rem;
+}
+
+.one:hover, .zero:hover {
+    height: 400px;
+}
+
+.imgBox {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+
+    border-radius: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.one:hover .imgBox, .zero:hover .imgBox {
+    top: -100px;
+    scale: 0.8;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contentBox {
+    position: absolute;
+    top: 230px;
+    width: 100%;
+    padding: 0 30px;
+    height: 4rem;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.one:hover .contentBox, .zero:hover .contentBox {
+    top: 130px;
+    height: 250px;
+}
+
+.one h2 {
+    color: black;
+    font-size: 1.7rem;
+    font-family: cursive;
+}
+
+.one p {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.one a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #FEFAE0;
+    border: none;
+    background-color: #bb010b;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.zero h2 {
+    color: orange;
+    font-size: 1.7rem;
+    font-family: cursive;
+}
+
+.zero p {
+    color: orange;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.zero a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #FEFAE0;
+    border: none;
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.paginationButtonOne {
+    color: #FEFAE0;
+    border-radius: 50%;
+    background-color: #bb010b;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: -5rem;
+}
+
+.paginationButtonZero {
+    font-size: 1.2rem;
+    color: #FEFAE0;
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.6rem;
+    cursor: pointer;
+    margin-top: -5rem;
+}

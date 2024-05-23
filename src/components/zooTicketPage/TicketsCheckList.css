@@ -1,0 +1,101 @@
+.ticketCheckListPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FEFAE0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.ticketCheckListPage h1 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    font-family: cursive;
+}
+
+.calendarP {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+}
+
+.calendarP span {
+    font-weight: bold;
+}
+
+.calendarProgress {
+    margin-top: -1rem;
+}
+
+.calendarProgress .bookingIcon1 {
+    color: orange;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.calendarProgress .bookingIcon2 {
+    color: #bb010b;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.checkListDetail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.checkListDetail p {
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-bottom: -0.5rem;
+}
+
+.affordTickets {
+    font-size: 1.7rem;
+    border: none;
+    color: #fff;
+    background-color: orange;
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.QRCode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.QRCode1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.QRCode2 {
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.affordTickets1 {
+    font-size: 1.5rem;
+    border: none;
+    color: #fff;
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}

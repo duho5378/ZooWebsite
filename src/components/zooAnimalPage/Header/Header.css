@@ -1,0 +1,36 @@
+.HeaderAnimal {
+    height: 80vh;
+    background-image: url('../assets/raccoon.jpg');
+    background-size: cover;
+    padding-top: 9rem;
+    border-radius: 0% 0% 48% 51% / 0% 0% 14% 26%  ;
+}
+
+.headLineAnimal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -2rem;
+}
+
+.headLineAnimal h1 {
+    font-family: cursive;
+    font-size: 3rem;
+    width: 45%;
+    text-align: center;
+    font-weight: 800;
+    color: #FEFAE0;
+}
+
+.headLineAnimal span {
+    color: orange;
+}
+
+.headLineAnimal p {
+    font-size: 1.3rem;
+    width: 60%;
+    text-align: center;
+    margin-top: -1.5rem;
+    color: #FEFAE0;
+}

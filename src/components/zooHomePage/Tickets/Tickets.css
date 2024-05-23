@@ -1,0 +1,154 @@
+.ticketSection {
+    height: 100vh;
+    padding-bottom: 5rem;
+    margin-top:-2rem;
+}
+
+.tickets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tickets h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: cursive;
+    margin-left: 5rem;
+    color: #283618;
+}
+
+.tickets button {
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: cursive;
+    margin-right: 5rem;
+    color: #283618;
+    cursor: pointer;
+}
+
+.top {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.bot {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+
+.top-left {
+    height: 100%;
+    width: 50%;
+    background-image: url('../assets/monkey2.jpg');
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1rem #bb010b solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-mid {
+    height: 100%;
+    width: 50%;
+    background-image: url('../assets/peacock.jpg');
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1rem #bb010b solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-right {
+    height: 100%;
+    width: 50%;
+    background-image: url('../assets/elephant3.jpg');
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1rem #bb010b solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-left h2, .top-mid h2, .top-right h2 {
+    color: white;
+    margin-top: 14rem;
+    font-size: 2.5rem;
+}
+
+.bot-right {
+    height: 100%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border: 1rem #606C38 solid;
+    border-radius: 20px;
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bot-right h2 {
+    color: #fff;
+    margin-top: 7rem;
+    font-size: 2.5rem;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 650;
+    border: none;
+    color: black;
+    background-color: orange;
+    transition: transform 0.5s ease;
+    margin-top: -1.7rem;
+}
+
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+  
+  /* Inner shadow effect */
+
+.btn:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.btn:hover::before {
+    opacity: 1;
+}
+
+.ticketSection p {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,35 @@
+.userAdmin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.userAdmin h2 {
+    font-size: 3rem;
+}
+
+.userAdminDetail {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.userAdminDetail th, .userAdminDetail td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .userAdminDetail button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+  }

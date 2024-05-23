@@ -1,0 +1,97 @@
+.ticketsTypePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FEFAE0;
+    height: 100vh;
+}
+
+.ticketsTypePage h1 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    font-family: cursive;
+}
+
+.calendarP {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+}
+
+.calendarP span {
+    font-weight: bold;
+}
+
+.calendarProgress {
+    margin-top: -1rem;
+}
+
+.calendarProgress .bookingIcon1 {
+    color: orange;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.calendarProgress .bookingIcon2 {
+    color: #bb010b;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.TicketTypeDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.TicketTypeDisplayDetail {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: -2rem;
+}
+
+.TTDD1 {
+  width: 25%;
+  font-size: 1.5rem;
+}
+
+.TTDD2 {
+  width: 25%;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.TTDD3 {
+  width: 25%;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.TTDD4 {
+  width: 20%;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.TicketTypeDisplayDetail button {
+  width: 3%;
+  cursor: pointer;
+  margin: 1rem 1rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+}
+
+.agreedTicket {
+    font-size: 1.7rem;
+    border: none;
+    color: #fff;
+    background-color: orange;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.ticketDisplay {
+    min-height: 110vh;
+    background-color: #FEFAE0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15rem;
+}
+
+.ticketH1 {
+    position: absolute;
+    font-size: 6rem;
+    color: white;
+    margin-top: 10rem;
+}
+
+.ticketDisplay img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.ticketDisplayTwo {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ticketDisplayTwo h2 {
+    font-size: 4rem;
+    color: white;
+    font-weight: 600;
+    margin-top: -2rem;
+}
+
+.oneSupport {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2rem;
+}
+
+.oneSupport img {
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid orange;
+}
+
+.oneSupport p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 60%;
+}

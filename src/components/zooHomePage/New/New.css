@@ -1,0 +1,180 @@
+.New {
+    background-color: #FEFAE0;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+    position: relative;
+    height: 100vh;
+}
+
+.New h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: cursive;
+    margin-left: 5rem;
+    color: #283618;
+}
+
+.News {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: absolute;
+    z-index: 887;
+    left: 65%;
+    top: 12%;
+    transition: 0.7s;
+}
+
+.News:hover {
+    top: 0%;
+}
+
+.News:hover .santaWhere {
+    opacity: 0;
+}
+
+.News p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: -2rem;
+    font-family: cursive;
+    color: #000;
+}
+
+.santaWhere {
+    position: absolute;
+    left: 65%;
+    top: -30%;
+    color: black;
+    font-family: cursive;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.santaNew {
+    height: 12rem;
+    width: 12rem;
+}
+
+.containerNew {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px ;
+    border-radius: 25px;
+    width: 90%; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    background-color: orange;
+    height: 80vh;
+    z-index: 888;
+}
+
+.left {
+    border: 3px ;
+    border-radius: 35px;
+    height: 90%;
+    background-image: url('../assets/christmas.jpg');
+    background-size: cover;
+}
+
+.left h2 {
+    color: #fff;
+    margin-top: 15rem;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 60%;
+}
+
+.left p {
+    color: #fff;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 80%;
+}
+
+.left button {
+    cursor: pointer;
+    margin-left: 1rem;
+    border-radius: 20px;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 650;
+    border: none;
+    color: #283618;
+    background-color: #FEFAE0;
+    transition: transform 0.5s ease;
+    text-decoration: none;
+}
+
+
+.right {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-top {
+    width: 95%;
+    height: 47%;
+    background-image: url('../assets/penguin.jpg');
+    background-size: cover;
+    border-radius: 35px;
+    border: 3px;
+}
+
+.right-top h3, .right-bot h3 {
+    color: #fff;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 70%;
+}
+
+.right-top a, .right-bot button {
+    cursor: pointer;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+    border-radius: 20px;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 650;
+    border: none;
+    color: #283618;
+    background-color: #FEFAE0;
+    transition: transform 0.5s ease;
+    text-decoration: none;
+}
+
+.right-bot {
+    width: 95%;
+    height: 47%;
+    background-image: url('../assets/community.jpg');
+    background-size: cover;
+    border-radius: 35px;
+    border: 3px;
+    margin-top: 2rem;
+}
+
+.right-top a:active, .right-bot button:active, .left button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+  
+  /* Inner shadow effect */
+
+.right-top a:hover, .right-bot button:hover, .left button:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.right-top a:hover::before, .right-bot button:hover:before, .left button:hover::before {
+    opacity: 1;
+}

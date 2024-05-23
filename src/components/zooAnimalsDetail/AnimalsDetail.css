@@ -1,0 +1,262 @@
+.allAnimalDetail {
+    position: relative;
+    z-index: 1;
+    background-color: #FEFAE0;
+}
+
+  
+  /* Style cho Snowfall */
+  .ReactSnowfall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Để tránh hiệu ứng tuyết rơi ảnh hưởng tới các phần tử khác */
+    z-index: 0; /* Đặt z-index thấp hơn để nó xuất hiện phía dưới các phần tử khác */
+  }
+
+.animal-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FEFAE0;
+    margin-bottom: 8rem;
+}
+
+.eachAnimalsDetail {
+    display: flex;
+}
+
+/* .eachAnimalsDetail img{
+
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 25% 25% 25% 25% / 25% 25% 25% 25% ;
+    padding: 20px;
+} */
+
+.firstDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+    margin-left: 1rem;
+}
+
+.firstDetails h2 {
+    font-size: 3.5rem;
+    color: black;
+    text-align: center;
+}
+
+.firstDetails p {
+    font-size: 1.3rem;
+    font-family: 500;
+    color: black;
+    text-align: center;
+}
+
+.firstDetails h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #bb010b;
+}
+
+.firstDetailsImage {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.firstDetailsImage img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 25% 25% 25% 25% / 25% 25% 25% 25% ;
+    border: 10px solid #bb010b;
+}
+
+.animalsAppearance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.animalsAppearanceTitle {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.animalsAppearanceTitle p {
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.aats {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.animalsAppearanceTitle h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: cursive;
+    width: 90%;
+}
+
+.animalsAppearanceTitle p::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px; 
+    height: 8px; 
+    border-radius: 50%; 
+    background-color: black; 
+    margin-top: 11px; 
+  }
+
+.animalsAppearanceImage {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animalsAppearanceImage img{
+    object-fit: cover;
+    width: 30rem;
+    height: 40rem;
+    border-radius: 20px;
+}
+
+.lifeStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.lifeStyle img {
+    width: 60%;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.lifeStyle h1, .funFact h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: cursive;
+    width: 90%;
+    text-align: center;
+}
+
+.lifeStyle p {
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    width: 70%;
+    padding-left: 20px;
+}
+
+.lifeStyle p::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px; 
+    height: 8px; 
+    border-radius: 50%; 
+    background-color: black; 
+    margin-top: 11px;
+}
+
+.funFact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.detailFunFact {
+    display: flex;
+}
+
+.fun1, .fun2, .fun3 {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fun1 h1, .fun2 h1, .fun3 h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: cursive;
+    color: #bb010b;
+}
+
+.fun1 p, .fun2 p, .fun3 p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.preserveAnimals {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.preserveAnimals h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: cursive;
+    width: 80%;
+    text-align: center;
+}
+
+.preserveAnimals p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    width: 70%;
+}
+
+.preserveAnimals a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    border: 2px solid ;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.preserveAnimals a:hover {
+    color: #bb010b;
+    background-color: transparent;
+    scale: 1.05;
+}
+
+
+
+

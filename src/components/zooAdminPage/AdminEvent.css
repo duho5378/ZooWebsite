@@ -1,0 +1,62 @@
+.adminEventPage {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.adminEventPage h1 {
+    font-size: 3rem;
+}
+
+.adminEventPageDetail {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 2px solid;
+    flex-direction: column;
+    height: 13rem;
+}
+
+.adminEventPageDetail p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.etime, .edisc {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.etime button, .edisc button {
+    width: 10%;
+    margin-right: 10%;
+}
+
+.etime p, .edisc p {
+    width: 70%;
+    margin-right: 10%;
+}
+
+.daysEvent {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: -1rem;
+}
+
+p span {
+    color: red;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.eventUpdate {
+    background-color: transparent;
+    padding: 0.3rem 0.4rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+}

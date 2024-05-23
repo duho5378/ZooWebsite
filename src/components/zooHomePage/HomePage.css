@@ -1,0 +1,14 @@
+.snowfall-wrapper {
+    position: relative;
+    z-index: 1;
+    background-color: #FEFAE0;
+  }
+  
+  /* Style cho Snowfall */
+  .ReactSnowfall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Để tránh hiệu ứng tuyết rơi ảnh hưởng tới các phần tử khác */
+    z-index: 0; /* Đặt z-index thấp hơn để nó xuất hiện phía dưới các phần tử khác */
+  }

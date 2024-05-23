@@ -1,0 +1,40 @@
+.UserAccount {
+    background-color: #FEFAE0;
+    height: 95vh;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.userAccountDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ua1 {
+    font-size: 3rem;
+}
+
+.ua2 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: orange;
+    margin-top: -3.5rem;
+}
+
+.ua3 {
+    font-size: 1.5;
+    font-weight: 400;
+    margin-bottom: -1rem;
+}
+
+.ua4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.ua5 {
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+}

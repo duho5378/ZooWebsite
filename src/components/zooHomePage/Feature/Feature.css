@@ -1,0 +1,160 @@
+.Feature {
+    background-color: #FEFAE0;
+    height: 60vh;
+}
+
+.intro {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Title {
+    font-size: 4.3rem;
+}
+
+.Title span {
+    color: orange;
+}
+
+.discriptionHome {
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 55%;
+    margin-top: -2rem;
+    color: #000;
+}
+
+.body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+.button1, .button2, .button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo1 {
+    position: relative;
+    right: 50%;
+    margin-top: -4rem;
+    transition: 0.5s;
+}
+
+.logo2 {
+    position: relative;
+    right: 40%;
+    margin-top: -4rem;
+    transition: 0.5s;
+}
+
+.logo3 {
+    position: relative;
+    right: 30%;
+    margin-top: -4rem;
+    transition: 0.5s;
+}
+
+.pin {
+    position: absolute;
+    z-index: 888;
+    color: orange;
+    transform: translateY(-25%);
+    animation: bounce 0.8s ease infinite alternate;
+}
+
+.map {
+    position: absolute;
+    z-index: 887;
+    color: green;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-25%);
+    }
+    100% {
+        transform: translateY(25%);
+    }
+}
+
+.button1 p, .button2 p {
+    position: relative;
+    width: 50%;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #000;
+    transition: 0.5s;
+}
+
+.button3 p {
+    position: relative;
+    width: 50%;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    color: #000;
+    transition: 0.5s;
+}
+
+.arrow {
+    position: relative;
+    transition: 1s ease;
+
+}
+
+@keyframes moveIcon {
+    0% {
+      transform: translateX(0); /* Bắt đầu từ vị trí hiện tại */
+    }
+    50% {
+      transform: translateX(10px); /* Di chuyển sang phải 20px */
+    }
+    100% {
+      transform: translateX(0); /* Quay trở về vị trí ban đầu */
+    }
+}
+
+.ticket {
+    position: absolute;
+    z-index: 888;
+    color: orange;
+    margin-left: 2rem;
+    transform: translateY(-25%);
+    animation: bounce 0.8s ease infinite alternate;
+}
+
+.hand {
+    position: absolute;
+    z-index: 887;
+    color: red;
+}
+
+.person {
+    position: absolute;
+    z-index: 887;
+    color: rgb(88, 87, 87);
+}
+
+.plus {
+    position: absolute;
+    z-index: 888;
+    margin-left: 3rem;
+    color: orange;
+    transform: translateY(-25%);
+    animation: bounce 0.8s ease infinite alternate;
+}
+
+.button1:hover .arrow, .button2:hover .arrow, .button3:hover .arrow{
+    animation: moveIcon 1s ease infinite;
+}

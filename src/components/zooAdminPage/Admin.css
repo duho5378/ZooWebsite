@@ -1,0 +1,60 @@
+.adminPage {
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+}
+
+.leftAdmin {
+    display: flex;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    border: 2px solid;
+    flex-direction: column;
+    background-color: #FEFAE0;
+}
+
+.leftAdmin h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: orange;
+}
+
+.leftAdmin p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: -2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.leftAdmin button {
+    height: 3rem;
+    font-size: 1.2rem;
+    margin: 0.5rem 0rem;
+    cursor: pointer;
+    border: none;
+    color: #bb101b;
+    font-weight: 600;
+    background-color: transparent;
+
+}
+
+.rightAdmin {
+    width: 85%;
+    margin-left: 15%;
+}
+
+.homeAdmin {
+    height: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #bb101b;
+    font-weight: 650;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

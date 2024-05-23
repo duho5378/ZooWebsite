@@ -1,0 +1,90 @@
+.ticketDiscountPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FEFAE0;
+    height: 100vh;
+}
+
+.ticketDiscountPage h1 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    font-family: cursive;
+    margin-top: -1.5rem;
+}
+
+.calendarP {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+}
+
+.calendarP span {
+    font-weight: bold;
+}
+
+.calendarProgress {
+    margin-top: -1rem;
+}
+
+.calendarProgress .bookingIcon1 {
+    color: orange;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.calendarProgress .bookingIcon2 {
+    color: #bb010b;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.discountDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.discountRank {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.discountRank p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.receivedData {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discountRankDetail {
+    display: flex;
+}
+
+.receivedData p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.affordTickets1 {
+    font-size: 1.5rem;
+    border: none;
+    color: #fff;
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
